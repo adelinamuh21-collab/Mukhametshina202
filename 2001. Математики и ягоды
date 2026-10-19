@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int a1, b1;
+    int a2, b2;
+    int a3, b3;
+
+    scanf("%d %d", &a1, &b1);
+    scanf("%d %d", &a2, &b2);
+    scanf("%d %d", &a3, &b3);
+
+    int x = a1 - a3;  
+    int y = b1 - b2; 
+
+    printf("%d %d\n", x, y);
+
+    return 0;
+}
